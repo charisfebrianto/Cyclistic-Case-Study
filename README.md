@@ -1,18 +1,32 @@
-# 🚲 Cyclistic Case Study: Strategi Konversi Member Berbasis Data (2017)
+# 🚲 Cyclistic Bike-Share Case Study (2017)
 
-## 📌 Ringkasan Proyek
-Proyek ini merupakan studi kasus untuk menganalisis perilaku pengguna layanan berbagi sepeda **Cyclistic** di Chicago selama tahun 2017. Tujuan utamanya adalah untuk mengidentifikasi perbedaan perilaku antara **Annual Members** (pelanggan tahunan) dan **Casual Riders** (pelanggan harian/short-term) guna merancang strategi pemasaran yang efektif untuk meningkatkan konversi menjadi Member.
+## 📝 Introduction 
+As part of the **Google Data Analytics Professional Certificate**, I completed a **Cyclistic case study** by running a comprehensive data analysis cycle. This process includes the stages of Ask, Prepare, Process, Analyze, Share, and Act, ensuring that every finding is supported by accurate data cleaning and processing.
 
-## ❓ Pertanyaan Kunci
-1. Bagaimana perbedaan pola penggunaan sepeda antara Annual Members dan Casual Riders?
-2. Mengapa Casual Riders akan tertarik untuk beralih ke Membership Tahunan?
-3. Bagaimana Cyclistic dapat menggunakan media digital untuk mempengaruhi Casual Riders menjadi Member?
+## 📌 Project Summary
+This project is an intensive case study of Cyclistic, a fictional bike-share company in Chicago that operates over 5,800 bikes and 600 stations. So far, Cyclistic's marketing strategy has focused on building broad brand awareness through various pricing schemes, including single-ride tickets, full-day passes, and annual memberships.
 
-## 🛠️ Alat yang Digunakan
-* **SQL (Google BigQuery):** Untuk ekstraksi, pembersihan, dan analisis data berskala besar (3,8 Juta+ baris).
-* **Tableau:** Untuk pembuatan dashboard interaktif dan visualisasi tren.
-* **Markdown:** Untuk dokumentasi dan storytelling hasil analisis.
+Financial analysis shows that while price flexibility attracts many customers, annual memberships are significantly more profitable than casual riders. Therefore, the primary goal of this project is to develop an effective marketing strategy **to convert casual riders into annual members**.
 
+## ❓ Key Question
+1. How do annual members and casual riders use Cyclistic bikes differently?
+2. Why would casual riders by Cyclistic annual memberships?
+3. How can Cyclistic use digital media to influence casual riders to become members?
+
+## 🛠️ Tools
+* **SQL (Google BigQuery):** For large-scale data extraction, cleaning, and analysis (3.8 Million+ rows).
+* **Tableau:** For creating interactive dashboards and trend visualizations.
+* **Markdown:** For documentation and storytelling of analysis results.
+
+
+### 1. Ask
+> Questions for guiding future marketing program: 
+> 1. How do annual members and casual riders use Cyclistic bikes differently?
+> 2. Why would casual riders buy Cyclistic annual memberships?
+> 3. How can Cyclistic use digital media to influence casual riders to become members?
+
+### 2. Prepare
+### 3. Process
 ## 🧹 Proses Pembersihan Data (Data Cleaning)
 Dalam tahap ini, saya melakukan beberapa keputusan teknis penting untuk menjaga integritas analisis:
 * **Penanganan Missing Values:** Menemukan **836.827** data gender yang kosong. Saya mengidentifikasi bahwa 99% data kosong ini berasal dari tipe pengguna *Customer* (Casual). Saya menggunakan logika `CASE WHEN` untuk mengubah nilai `NULL` dan `Empty String` menjadi **'Unknown'** agar integritas volume total tetap terjaga dalam visualisasi.
