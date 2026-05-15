@@ -1,17 +1,12 @@
 # 🚲 Cyclistic Bike-Share Case Study (2017)
 
 ## 📝 Introduction 
-As part of the **Google Data Analytics Professional Certificate**, I completed a **Cyclistic case study** by running a comprehensive data analysis cycle. This process includes the stages of Ask, Prepare, Process, Analyze, Share, and Act, ensuring that every finding is supported by accurate data cleaning and processing.
+As part of the **Google Data Analytics Professional Certificate**, I completed a **Cyclistic case study** by running a comprehensive data analysis cycle. This process includes the stages of <ins>Ask, Prepare, Process, Analyze, Share, and Act</ins>, ensuring that every finding is supported by accurate data cleaning and processing.
 
 ## 📌 Project Summary
 This project is an intensive case study of Cyclistic, a fictional bike-share company in Chicago that operates over 5,800 bikes and 600 stations. So far, Cyclistic's marketing strategy has focused on building broad brand awareness through various pricing schemes, including single-ride tickets, full-day passes, and annual memberships.
 
 Financial analysis shows that while price flexibility attracts many customers, annual memberships are significantly more profitable than casual riders. Therefore, the primary goal of this project is to develop an effective marketing strategy **to convert casual riders into annual members**.
-
-## ❓ Key Question
-1. How do annual members and casual riders use Cyclistic bikes differently?
-2. Why would casual riders by Cyclistic annual memberships?
-3. How can Cyclistic use digital media to influence casual riders to become members?
 
 ## 🛠️ Tools
 * **SQL (Google BigQuery):** For large-scale data extraction, cleaning, and analysis (3.8 Million+ rows).
@@ -19,19 +14,37 @@ Financial analysis shows that while price flexibility attracts many customers, a
 * **Markdown:** For documentation and storytelling of analysis results.
 
 
-### 1. Ask
+### ❓ 1. Ask
 > Questions for guiding future marketing program: 
 > 1. How do annual members and casual riders use Cyclistic bikes differently?
 > 2. Why would casual riders buy Cyclistic annual memberships?
 > 3. How can Cyclistic use digital media to influence casual riders to become members?
 
 ### 2. Prepare
+Dataset: [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) <br>
+ (Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will enable you to answer the business questions. The data has been made available by Motivate International Inc. under this license.)
+
 ### 3. Process
-## 🧹 Proses Pembersihan Data (Data Cleaning)
-Dalam tahap ini, saya melakukan beberapa keputusan teknis penting untuk menjaga integritas analisis:
-* **Penanganan Missing Values:** Menemukan **836.827** data gender yang kosong. Saya mengidentifikasi bahwa 99% data kosong ini berasal dari tipe pengguna *Customer* (Casual). Saya menggunakan logika `CASE WHEN` untuk mengubah nilai `NULL` dan `Empty String` menjadi **'Unknown'** agar integritas volume total tetap terjaga dalam visualisasi.
-* **Presisi Durasi Perjalanan:** Mengonversi durasi dari detik ke menit menggunakan pembagian manual (`tripduration / 60`) untuk mempertahankan nilai desimal, dibandingkan menggunakan fungsi pembulatan yang berpotensi menghilangkan data menit yang berharga.
-* **Filter Outlier:** Menghapus data perjalanan yang memiliki durasi negatif atau terlalu pendek (< 1 menit) yang kemungkinan disebabkan oleh kesalahan teknis stasiun.
+I use Cyclistic data on 2017 (Q1 - Q4) for this analysis and the following steps for processing :
+1) Data Combining
+2) Data Exploration
+3) Data Cleaning
+
+#### Data Combining
+There are 4 tables from Q1 2017 to Q4 2017 then combined into one table. The table consists of 3.829.014 rows.
+
+#### Data Exploration
+I make the queries for each column from the left to the right in order to looking for some missing values, outliers, and inconsistencies within the dataset.
+
+#### 🧹 Data Cleaning
+In this step, I made several important technical decisions to maintain the integrity of the analysis:
+* **Handling Missing Values:** Found **836,827** empty gender data. I identified that 99% of these empty data came from the *Customer* (Casual) user type. I used `CASE WHEN` logic to convert `NULL` and `Empty String` values ​​to **'Unknown'** to maintain the integrity of the total volume in the visualization.
+* **Precise tripduration:** Convert duration from seconds to minutes using manual division (`tripduration / 60`) to preserve decimal values, rather than using a rounding function which potentially loses valuable minute data.
+* **Filtering Outlier:** Deleting trip data that has a negative duration or is too short (< 1 minute) which is likely caused by a technical error at the station.
+
+The 338.008 rows were removed. So, the total of 3.491.006 rows have been cleaned.
+
+### 4. Analyze
 
 ## 📊 Temuan Utama (Key Insights)
 
