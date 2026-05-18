@@ -57,6 +57,20 @@ The 338.008 rows were removed. So, the total of 3.491.006 rows (91.17%) have bee
 The key question is:
 > How do annual members and casual riders use Cyclistic bikes differently?
 
+### - Total Users in 2017
+<img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/55846c7f-4a2d-46f1-86fc-063cafee2fdb" /><br>
+- Cyclistic Subscribers is greater than the Casual ones. The Subscriber has a 83.54% (2.916.444), while The Casual has a 16.46% (57.456
+
+### - Average Trip Duration
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/31a396e7-7ba0-4517-b92d-ad75b9d51114" /><br>
+- It turns out that The Customer has a longer time than Subscriber on Average Trip Duration. The Customer are 7 minutes longer than Susbcriber on their duration.
+
+### - Trends by Peak Hours
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/0bf8b0fc-9d65-4382-9f7c-52202f92fb01" /><br>
+- The trens showed that Customer used cyclistic at 14 - 16 (leisure time). While Subscriber used cyclistic during peak hours (6 - 8 and 16 - 18).
+
+
+
 ## 📊 Key Insights
 
 ### 1. Time Trend: Commuter vs Leisure
