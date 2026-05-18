@@ -59,15 +59,38 @@ The key question is:
 
 ### - Total Users in 2017
 <img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/55846c7f-4a2d-46f1-86fc-063cafee2fdb" /><br>
-- Cyclistic Subscribers is greater than the Casual ones. The Subscriber has a 83.54% (2.916.444), while The Casual has a 16.46% (57.456
+- Cyclistic Subscribers is greater than the Casual ones. The Subscriber has a 83.54% (2.916.444 trips), while The Casual has a 16.46% (57.456 trips)
 
 ### - Average Trip Duration
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/31a396e7-7ba0-4517-b92d-ad75b9d51114" /><br>
-- It turns out that The Customer has a longer time than Subscriber on Average Trip Duration. The Customer are 7 minutes longer than Susbcriber on their duration.
+- Cycylistic Casual ride about 17.75 minutes on average, while Subscribers ride about 10.78 minutes.
+- It shows the Subscribers using the bike to the destination station efficiently. While Customers used bike for recreation or leisure travel.
 
 ### - Trends by Peak Hours
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/0bf8b0fc-9d65-4382-9f7c-52202f92fb01" /><br>
 - The trens showed that Customer used cyclistic at 14 - 16 (leisure time). While Subscriber used cyclistic during peak hours (6 - 8 and 16 - 18).
+
+### - Trends by Day of Week
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/572f785c-682e-4e40-97ed-0f5e7ac2e504" /><br>
+- Customer has a highest trips on Saturyday with 149.497 trips, and the lowest trips on wedenesday 44.265 trips.
+- Subscribers has a highest trips on Tuesday with 490.195 trips, and the lowest trips on sunday with 279.035 trips.
+
+### - Trends by Months
+<img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/5e9a60da-f086-4106-a0b6-368d4ec610af" /><br>
+- Generally, Customers and Subscribers has a highest activity on July and August, which is summer.
+
+
+### - Age Segmentation
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/50843000-d689-477c-91a4-2c90a36f011c" /><br>
+- It shows that Cyclistic users are dominated by millennials, both customers and subscribers.
+
+### - Top 3 Departure and Destination Station
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/c69c8026-8ba2-4aab-a903-9b2322f57f68" /><br>
+- Surprisingly, the departure station is the same station as the destinantion station for ach usertype.
+
+
+
+
 
 
 
