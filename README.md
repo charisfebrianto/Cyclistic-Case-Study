@@ -71,9 +71,12 @@ The key question is:
 - The trens showed that Customer used cyclistic at 14 - 16 (leisure time). While Subscriber used cyclistic during peak hours (6 - 8 and 16 - 18).
 
 ### - Trends by Day of Week
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/572f785c-682e-4e40-97ed-0f5e7ac2e504" /><br>
-- Customer has a highest trips on Saturyday with 149.497 trips, and the lowest trips on wedenesday 44.265 trips.
-- Subscribers has a highest trips on Tuesday with 490.195 trips, and the lowest trips on sunday with 279.035 trips.
+<img width="47%" alt="image" src="https://github.com/user-attachments/assets/7fa47580-e53c-4d58-857c-22532433855f" />
+<img width="48%" alt="image" src="https://github.com/user-attachments/assets/dbc1bdc9-f720-4602-83c7-9b82f85aa9c9" />
+<br><br>
+Based on the graph above : <br>
+- Subscriber are the most users on week day with the short time of trip duration. So, they are people who go to work every week day by bicycle efficiently.<br>
+- While Customer are daily users who are a few in number but have a longer tripduration. Which is, Customer used cyclistic just for recreation or on their leisure time.
 
 ### - Trends by Months
 <img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/5e9a60da-f086-4106-a0b6-368d4ec610af" /><br>
@@ -81,12 +84,16 @@ The key question is:
 
 
 ### - Age Segmentation
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/50843000-d689-477c-91a4-2c90a36f011c" /><br>
-- It shows that Cyclistic users are dominated by millennials, both customers and subscribers.
+<img width="48%" alt="image" src="https://github.com/user-attachments/assets/50843000-d689-477c-91a4-2c90a36f011c"/><br>
+- It shows that Cyclistic users are **dominated by millennials (25 - 40 y.o)**, both customers and subscribers.
 
 ### - Top 3 Departure and Destination Station
-<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/c69c8026-8ba2-4aab-a903-9b2322f57f68" /><br>
+<img width="1240" height="485" alt="image" src="https://github.com/user-attachments/assets/1eea64ff-191e-402e-b9e7-441a8d582999" />
+<br>
 - Surprisingly, the departure station is the same station as the destinantion station for ach usertype.
+
+
+
 
 
 
