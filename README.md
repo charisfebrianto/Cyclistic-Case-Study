@@ -61,18 +61,15 @@ The key question is:
 <img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/55846c7f-4a2d-46f1-86fc-063cafee2fdb" /><br>
 - Cyclistic Subscribers is greater than the Casual ones. The Subscriber has a 83.54% (2.916.444 trips), while The Casual has a 16.46% (57.456 trips)
 
-### - Average Trip Duration
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/31a396e7-7ba0-4517-b92d-ad75b9d51114" /><br>
-- Cycylistic Casual ride about 17.75 minutes on average, while Subscribers ride about 10.78 minutes.
-- It shows the Subscribers using the bike to the destination station efficiently. While Customers used bike for recreation or leisure travel.
-
 ### - Trends by Peak Hours
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/0bf8b0fc-9d65-4382-9f7c-52202f92fb01" /><br>
+<img width="48%" alt="image" src="https://github.com/user-attachments/assets/f53ead93-efd7-483b-b461-87ece03d6b5f" />   
+<img width="51%" alt="image" src="https://github.com/user-attachments/assets/d4bc707a-1d01-4d62-ab25-811706a1b68b" />
+<br>
 - The trens showed that Customer used cyclistic at 14 - 16 (leisure time). While Subscriber used cyclistic during peak hours (6 - 8 and 16 - 18).
 
 ### - Trends by Day of Week
-<img width="47%" alt="image" src="https://github.com/user-attachments/assets/7fa47580-e53c-4d58-857c-22532433855f" />
-<img width="48%" alt="image" src="https://github.com/user-attachments/assets/dbc1bdc9-f720-4602-83c7-9b82f85aa9c9" />
+<img width="48%" alt="image" src="https://github.com/user-attachments/assets/7fa47580-e53c-4d58-857c-22532433855f" />
+<img width="49%" alt="image" src="https://github.com/user-attachments/assets/dbc1bdc9-f720-4602-83c7-9b82f85aa9c9" />
 <br><br>
 Based on the graph above : <br>
 - Subscriber are the most users on week day with the short time of trip duration. So, they are people who go to work every week day by bicycle efficiently.<br>
