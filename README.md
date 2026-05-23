@@ -105,9 +105,13 @@ Dashboard
 * **Subscribers (The Commercial Hubs)**: Subscribers are distributed across **major transit junctions and commercial districts**, notably Clinton St & Washington. This marks the typical "last-mile" commute route from train stations to office buildings.
 
 ## 💡 Strategic Recommendations (Act)
-1. Location-Based Campaign (Geofencing): Place dedicated digital and physical ads (QR codes) at Casual hotspots (tourist areas) during the summer.
-2. Value-for-Time Proposition: Use a marketing narrative that emphasizes cost savings for those who regularly cycle for more than 15 minutes (the average duration of Customer).
-3. Summer Targeting: Launch a large-scale conversion campaign in May-June to capture the surge in Customer usage before the peak summer season.
+1. Hyper-Targeted Ads at Leisure Hubs: <br>
+- Launch localized summer weekend ads on Instagram and TikTok around high-traffic spots like Navy Pier and Millennium Park, focusing on the experience of avoiding city traffic rather than just renting a bike.
+2. Value-for-Time Membership Campaigns:<br>
+- Target the millennial "smart spender" mindset by showing that their longer 15+ minute weekend rides make casual passes expensive, framing the annual membership as a better money-saving choice.<br>
+3. Summer Targeting: <br>
+- Target the millennial "smart spender" mindset by showing that their longer 15+ minute weekend rides make casual passes expensive, framing the annual membership as a better money-saving choice.<br>
+ 
 
 ---
 
