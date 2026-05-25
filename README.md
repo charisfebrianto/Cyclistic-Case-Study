@@ -1,4 +1,4 @@
-# 🚲 Cyclistic Bike-Share (2017)
+# 🚲 Cyclistic Bike-Share Analysis (2017)
 
 ## 📝 Introduction 
 As part of the **Google Data Analytics Professional Certificate**, I completed a **Cyclistic case study** by running a comprehensive data analysis cycle. This process includes the stages of <ins>Ask, Prepare, Process, Analyze, Share, and Act</ins>, ensuring that every finding is supported by accurate data cleaning and processing.
