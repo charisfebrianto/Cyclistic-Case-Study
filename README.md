@@ -1,4 +1,4 @@
-# 🚲 Cyclistic Bike-Share Case Study (2017)
+# 🚲 Cyclistic Bike-Share (2017)
 
 ## 📝 Introduction 
 As part of the **Google Data Analytics Professional Certificate**, I completed a **Cyclistic case study** by running a comprehensive data analysis cycle. This process includes the stages of <ins>Ask, Prepare, Process, Analyze, Share, and Act</ins>, ensuring that every finding is supported by accurate data cleaning and processing.
@@ -38,7 +38,7 @@ I make the queries for each column from the left to the right in order to lookin
 
 Cyclistic dataset has **12 variables**, as shown in the following figure along its datatypes: <br>
 
-<img width="415" height="418" alt="variabel cyclistic" src="https://github.com/user-attachments/assets/5db8c15c-eab3-4557-96c9-9520fac3c35e" />
+<img width="415" height="418" alt="Variabel of Cyclistic Table" src="https://github.com/user-attachments/assets/5db8c15c-eab3-4557-96c9-9520fac3c35e" />
 
 
 #### 🧹 Data Cleaning
@@ -51,45 +51,46 @@ In this step, I made several important technical decisions to maintain the integ
 
 The 338.008 rows were removed. So, the total of 3.491.006 rows (91.17%) have been cleaned.
 
-### 4. Analyze
-#### Data Analysis
+### 4. Analyze (Data Analysis)
 
 The key question is:
 > How do annual members and casual riders use Cyclistic bikes differently?
 
 ### - Total Users in 2017
-<img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/55846c7f-4a2d-46f1-86fc-063cafee2fdb" /><br>
-- Cyclistic Subscribers is greater than the Casual ones. The Subscriber has a 83.54% (2.916.444 users), while The Casual has a 16.46% (57.456 users)
+<img width="650" height="400" alt="Total User of Cyclistic Chart between Customer and Subscriber" src="https://github.com/user-attachments/assets/55846c7f-4a2d-46f1-86fc-063cafee2fdb" /><br>
+- Subscriber Cyclistic is greater than the Customer ones. Subscriber has a 83.54% (2.916.444 users), while Customer has a 16.46% (57.456 users)
 
 ### - Age Segmentation
-<img width="48%" alt="image" src="https://github.com/user-attachments/assets/50843000-d689-477c-91a4-2c90a36f011c"/><br>
-- It shows that Cyclistic users are **dominated by millennials (25 - 40 y.o)**, both customers and subscribers.
+<img width="650" height="400" alt="Chart of Total User of Cyclistic by Age Segmentation" src="https://github.com/user-attachments/assets/a4853df6-5c3e-4bd7-aa55-ed2e446d8e6c" />
+<br>
+- It shows that Cyclistic users are **dominated by Millenials (25-40 yo.)**, both Customer or Subscriber.
 
 ### - Gender
-<img width="48%" alt="image" src="https://github.com/user-attachments/assets/3cfc6b3e-82da-4cd5-9a39-bb56003268dd" /><br>
+<img width="650" height="400" alt="Cyclistic Users by Gender Chart" src="https://github.com/user-attachments/assets/3cfc6b3e-82da-4cd5-9a39-bb56003268dd" /><br>
 <sub>Note: 99.8% of Customer data is excluded from this chart due to missing profile registration.</sub>
-- Both Customer and Subscriber was dominated by Men
+- Both Customer and Subscriber was dominated by Male
 
 ### - Trends by Peak Hours
-<img width="48%" alt="image" src="https://github.com/user-attachments/assets/f53ead93-efd7-483b-b461-87ece03d6b5f" />   
-<img width="51%" alt="image" src="https://github.com/user-attachments/assets/d4bc707a-1d01-4d62-ab25-811706a1b68b" /><br>
+<img width="48%" alt="Avg Duration by Peak Hours Chart" src="https://github.com/user-attachments/assets/f53ead93-efd7-483b-b461-87ece03d6b5f" />   
+<img width="51%" alt="Total Trips by Peak Hours Chart" src="https://github.com/user-attachments/assets/d4bc707a-1d01-4d62-ab25-811706a1b68b" /><br>
 - The trends showed that Customer used cyclistic at leisure time (14 - 16) with a longer duration. While Subscriber used cyclistic during peak hours (6 - 8 and 16 - 18)<br>
 
 ### - Trends by Day of Week
-<img width="48%" alt="image" src="https://github.com/user-attachments/assets/7fa47580-e53c-4d58-857c-22532433855f" />
-<img width="49%" alt="image" src="https://github.com/user-attachments/assets/dbc1bdc9-f720-4602-83c7-9b82f85aa9c9" />
+<img width="48%" alt="Avg Duration by Day of Week Chart" src="https://github.com/user-attachments/assets/7fa47580-e53c-4d58-857c-22532433855f" />
+<img width="49%" alt="Total Trips by Day of Week Chart" src="https://github.com/user-attachments/assets/dbc1bdc9-f720-4602-83c7-9b82f85aa9c9" />
 <br>
 - Subscriber are the most users on week day with the short time of trip duration.<br>
 - While Customer are daily users who are a few in number but have a longer tripduration, escpecially on Sunday and Saturday.
 
 ### - Trends by Months
-<img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/5e9a60da-f086-4106-a0b6-368d4ec610af" /><br>
-- Both Customers and Subscribers has highest activity in summer on June to August.
+<img width="49.5%" alt="Avg Duration by Month Chart" src="https://github.com/user-attachments/assets/618e9e8d-d41a-4dc0-83db-eb4fd551de8f" />
+<img width="46%" alt="Total Trips by Month Chart" src="https://github.com/user-attachments/assets/5e9a60da-f086-4106-a0b6-368d4ec610af" /><br>
+- Both Customers and Subscribers has highest activity in summer on June to August, with the long duration.<br>
 - Also, they has the lowest activity on December to February, which is winter
 
 
 ### - Top 3 Departure and Destination Station
-<img width="1240" height="485" alt="image" src="https://github.com/user-attachments/assets/1eea64ff-191e-402e-b9e7-441a8d582999" />
+<img width="1240" height="485" alt="Top 3 Departure and Destination Station Chart" src="https://github.com/user-attachments/assets/1eea64ff-191e-402e-b9e7-441a8d582999" />
 <br>
 - Surprisingly, the departure station is the same station as the destination station for each usertype.
 
